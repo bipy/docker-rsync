@@ -1,3 +1,3 @@
 #!/bin/sh
 
-rsync -avhP /from/* /to/ > /rsync.log 2>&1
+rsync -avhP /from/* /to/ > /logs/rsync.log 2>&1
